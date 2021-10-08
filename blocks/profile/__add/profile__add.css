@@ -1,0 +1,23 @@
+    .profile__add {
+        width: 150px;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid #E5E5E5;
+        align-self: center;
+        justify-self: self-end;
+    }
+    
+    .profile__add:hover {
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.6 ease 3s;
+    }
+    
+    @media screen and (max-width: 320px) {
+        .profile__add {
+            position: static;
+            margin: 36px 0 0 0;
+            min-width: 282px;
+            min-height: 50px;
+        }
+    }

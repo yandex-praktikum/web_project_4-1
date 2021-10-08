@@ -1,0 +1,9 @@
+.elements {
+    width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    .elements {
+        width: calc(100% - 38px);
+    }
+}

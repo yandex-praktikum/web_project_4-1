@@ -1,6 +1,8 @@
     .profile__add {
+        margin-left: auto;
         width: 150px;
         height: 50px;
+        padding: 0px;
         background-color: transparent;
         border: 1px solid #E5E5E5;
         align-self: center;
@@ -21,3 +23,5 @@
             min-height: 50px;
         }
     }
+
+

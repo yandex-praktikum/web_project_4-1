@@ -1,10 +1,16 @@
 .profile__details {
+    max-width: 415px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 39px 22px;
     grid-template-areas: "title edit"
      "subtitle . ";
-    grid-gap: 16px 18px;
+    margin-left: 34px;
+    position: relative;
+    grid-template-columns: 373px auto;
+    grid-column-gap: 18px;
+    grid-row-gap: 16px;
+    align-items: center;
 }
 
 @media screen and (max-width: 320px) {

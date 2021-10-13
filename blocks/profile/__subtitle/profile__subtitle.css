@@ -7,6 +7,10 @@
     max-width: 415px;
     text-overflow: ellipsis;
     grid-area:subtitle;
+    max-height: 22px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 320px) {

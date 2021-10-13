@@ -1,7 +1,7 @@
 .profile__details {
     max-width: 415px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 373px auto;
     grid-template-rows: 39px 22px;
     grid-template-areas: "title edit"
      "subtitle . ";

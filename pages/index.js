@@ -1,7 +1,7 @@
 const profileName = document.querySelector('.profile__title');
 const profileFood = document.querySelector('.profile__subtitle');
 const openEditProfileButton = document.querySelector('.profile__edit-button');
-const closeBtn = document.querySelector('.popup__close')
+const closebtn = document.querySelector('.popup__close')
 
 const profilePopup = document.querySelector('.popup_type_profile');
 const popupInputName = profilePopup.querySelector('.popup__input_type_name');
@@ -19,8 +19,9 @@ function closePopup(popup) {
 }
 
 
+
 profilePopup.addEventListener('click', (evt) => {
-    if (evt.target.classList.contains('popup') || evt.target.classList.contains('popup__img-closeBtn')) {
+    if (evt.target.classList.contains('popup') || evt.target.classList.contains('popup__img-closebtn')) {
         closePopup(profilePopup);
     }
 });
@@ -38,3 +39,5 @@ popupSaveProfileButton.addEventListener('click', (event) => {
     profileFood.textContent = popupInputFood.value;
     closePopup(profilePopup);
 });
+
+

@@ -5,7 +5,6 @@
     grid-template-rows: 39px 22px;
     grid-template-areas: "title edit"
      "subtitle . ";
-    margin-left: 34px;
     position: relative;
     grid-column-gap: 18px;
     grid-row-gap: 16px;

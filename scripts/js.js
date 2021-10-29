@@ -23,21 +23,21 @@ const photoUrl = addPhotoModal.querySelector('.form__input_photo-url');
 
 
 function togglePopup(modal) {
-    modal.classList.toggle('popup__opened');
+    modal.classList.toggle('popup_opened');
 }
 
 function escAndClick(pop) {
     // Popups close with click outside box
     pop.addEventListener('click', (evt) => {
       if (evt.target.classList.contains("popup")) {
-        pop.classList.remove("popup__opened");
+        pop.classList.remove("popup_opened");
   
       }
     });
   
     window.addEventListener("keyup", (evt) => {
       if (evt.key === "Escape") {
-        pop.classList.remove("popup__opened");
+        pop.classList.remove("popup_opened");
       }
     });
   };

@@ -9,7 +9,7 @@
     background-image: url('../../../images/Close-Icon.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 60px 60px; 
+    background-size: 60px 60px;
     transition: opacity 0.3s linear;
     outline: none;
 }

@@ -6,12 +6,12 @@
     padding-left: 0;
     background: rgba(0, 0, 0, 0);
     border: none;
-    background-image: url('../../../images/Close-Icon.svg');  
+    background-image: url('../../../images/Close-Icon.svg');
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: 60px 60px; 
-    transition: opacity 0.3s linear;    
-    outline: none;    
+    transition: opacity 0.3s linear;
+    outline: none;
 }
 
 .popup__close:hover {
@@ -22,6 +22,6 @@
     .popup__close {
         width: 30px;
         height: 30px;
-        background-size: 45px 45px; 
+        background-size: 45px 45px;
     }
 }

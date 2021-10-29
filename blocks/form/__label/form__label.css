@@ -1,0 +1,10 @@
+.form__label{
+    display: block;
+}
+
+.form__label:first-of-type{
+    margin-bottom: 29px;
+ }
+ .form__label:last-of-type{
+     margin-bottom: 48px;
+  }

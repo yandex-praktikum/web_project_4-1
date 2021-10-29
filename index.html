@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Around The U.s.</title>
+</head>
+
+<body class="root">
+    <div class="root__container">
+        <header class="header">
+            <img class="logo" src="./images/Vector.svg" alt="logo" />
+        </header>
+        <main>
+            <section class="profile">
+                <img class="profile__pic" src="./images/avatar.png" alt="avatar" />
+                <div class="profile__info">
+                    <h1 class="profile__name">Jacques Cousteau</h1>
+                    <p class="profile__about-me">Explorer</p>
+                    <button class="button button_edit"></button>
+                </div>
+                <button class=" button button_add"></button>
+            </section>
+            <section class="elements">
+                <ul class="elements__list">
+
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy; 2020 Around The U.S.</p>
+        </footer>
+
+            <div class="popup popup_type_edit-profile">
+                <div class="popup__content">
+                <form action="#" class="form">
+                    <h2 class="form__title">Edit profile</h2>
+                    <label class="form__label">
+                        <input class="form__input form__input_name" id="input-name" type="text"  minlength="2" maxlength="40"   value="Jacques Cousteau" placeholder="Name" required/>
+                        <span class="form__error form__error_edit" id="input-name-error"></span>
+                    </label>
+                    <label class="form__label">
+                        <input class="form__input form__input_about" id="input-about" type="text" minlength="2" maxlength="200" value="Explorer"  placeholder="About" required/>
+                        <span class="form__error form__error_edit" id="input-about-error"></span>
+                    </label>
+                    <button class="form__submit-button form__submit-invalid">Save</button>
+                </form>
+                <button class="button button_close"></button>
+            </div>
+            </div>
+
+            <div class="popup popup_type_add-photo">
+                <div class="popup__content">
+                <form action="#" class="form">
+                    <h2 class="form__title">New place</h2>
+                    <label class="form__label">
+                        <input class="form__input form__input_invalid  form__input_photo-title"  minlength="1" maxlength="30"   id="input-placename" type="text" name="placename" required placeholder="title" />
+                        <span class="form__error "  id="input-placename-error"> Please fill out this field.</span>
+                    </label>
+                    <label class="form__label">
+                        <input class="form__input form__input_invalid form__input_photo-url"  id="input-url" type="url" name="popupurl" required placeholder="Image link" />
+                        <span class="form__error "  id="input-url-error">Please enter a web address.</span>
+                    </label>
+                    <button class="form__submit-button form__submit-invalid">Create</button>
+                </form>
+                <button class="button button_close"></button>
+            </div>
+            </div>
+
+      
+            <div class="popup popup_type_image">
+                <div class="popup__content popup__content_theme_transparent">
+                    <figure class="figure">
+                        <img src="" alt="" class="figure__image">
+                        <figcaption class="figure__caption"></figcaption>
+                    </figure>
+                    <button type="button" class=" popup__close popup__close_type_image"></button>
+                </div> 
+            </div>
+    </div>
+
+    <template id="element_card">
+        <li class="elements__item">
+            <div class="elements__image"></div>
+            <button class="button button_delete"></button>
+            <div class="elements__footer">
+                <h3 class="elements__title"></h3>
+                <button class="button button_like"></button>
+            </div>
+        </li>
+    </template>
+
+    <script src="./scripts/js.js"></script>
+    <script src="./scripts/validate.js"></script>
+</body>
+
+</html>

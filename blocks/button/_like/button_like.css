@@ -1,0 +1,15 @@
+.button_like{
+    border: none;
+    cursor: pointer;
+    background: url('../../../images/love.svg') no-repeat center;
+    height: 25px;
+    width: 25px;
+}
+
+.button_like-active{
+    border: none;
+    cursor: pointer;
+    background: url('../../../images/clickedLike.svg') no-repeat center;
+    height: 25px;
+    width: 25px;
+}

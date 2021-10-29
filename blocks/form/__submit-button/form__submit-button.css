@@ -1,0 +1,16 @@
+.form__submit-button{
+    background: #000000;
+    border-radius: 2px;
+    border: none;
+    height: 50.15px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    transition: ease-in .3s opacity;
+}
+.form__submit-button:focus{
+    outline: none;
+}
+.form__submit-button:hover{
+    background: rgba(0, 0, 0, 0.8);
+}

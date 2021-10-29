@@ -1,0 +1,9 @@
+.elements__footer{
+    background: white;
+    padding: 25px 15px 25px 21px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: -4px;
+    height: 100%;
+}

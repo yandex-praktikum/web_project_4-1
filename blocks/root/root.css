@@ -1,0 +1,7 @@
+@import url('./__container/root__container.css');
+.root{
+    background: #000000;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}

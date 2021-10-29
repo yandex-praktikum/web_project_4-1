@@ -17,3 +17,4 @@ Project created with the following technologies
 * [Link to the project ](https://bilal2786.github.io/web_project_4/)
 
 **HAVE FUN**
+
